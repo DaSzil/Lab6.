@@ -5,50 +5,45 @@
 		<style>
 		
 		header{
-		height : 40px;
-		background-color:#902f05
+		height: 40px;
+		background-color: #67db7a;
 		}
 		
-		body { 
-		background-image:url('Hungary.gif'); 
-		background-repeat:no-repeat;
-		padding: 100px;
-		}
-
-		padding: 10px;
+		body{
+		padding: 30px;
 		margin: 0;
-		font-family: Helvetica;
-		}
-		
-		#Inceput(
-		margin-left: 10px;
+		font-family: tahoma;
+		background-color: #a9d0de;
 		}
 		
 		#NumePrenume{
-		font-weight: 200;
+		margin-left:10px;
 		}
 		
 		table, td{
-		border: 1px solid;
+		border: 2px solid;
 		border-collapse: collapse;
-		padding: 10px;
+		padding:20 px;
 		}
 		
 		#Hobby-uri{
-		border-style: dotted;
+		border-style: dashed;
+		width: 250px;
 		}
 		
-		#pozeprofil{
-		border-radius: 30px;
+		#pozeprofil {
+		border-radius: 50px;
 		padding: 20px;
 		position: absolute;
-		top: 80px;
-		right: 200px;
-		opacity: 0.8;
+		top: 90px;
+		right: 180px;
+		opacity: 0.9;
 		}
 		
+		
 		footer{
-		background-color:#95e6d0;
+		background-color: #67db7a;
+		padding: 10px;
 		}
 		
 		</style>
@@ -56,11 +51,13 @@
 	
 	
 	<body>
-	
-		<h1 id="NumePrenume" style="color:#95e6d0">Somogyi Szilard-Karoly</h1>
+		<header>
+		<h1 id="NumePrenume">Somogyi Szilard-Karoly</h1>
+		</header>
+		
 		<img id="pozeprofil" src="AGP-64.jpg" width="300px" height="450px">
 		<p>Somogyi.Ka.Szilard@student.utcluj.ro</p>
-		<p>"“Educaţia nu este cât de mult ai memorat, nici măcar cât ştii. Este 	 capacitatea de a diferenţia între ceea ce ştii şi ceea ce nu ştii” – Anatole France </p>
+		<p>“Educaţia nu este cât de mult ai memorat, nici măcar cât ştii. Este 	 capacitatea de a diferenţia între ceea ce ştii şi ceea ce nu ştii” – Anatole France </p>
 		<h2>Educatie</h2>
 		
 		<table id="tabelEducatie">
@@ -87,14 +84,17 @@
 		</table>
 		
 		<h2>Hobby-uri:</h2>
-		<ul>
+			<ul id="Hobby-uri">
 			<li> Cantatul la chitara </li>
 			<li> Jocurile pe calculator </li>
 			<li> Programarea in Unity </li>
 		</ul>
 		<button><a href="ex3.html">Back</a></button>
+		<p></p>
 		
-		<footer> Footer
+		
+		<img src="Hungary.gif" alt="Sunt de origine Maghiar, deci am adaugat un steag al Ungariei.">
+		<footer style=" position: absolute; left: 40px; top: 600px"> Acesta este un footer colorat.
 		</footer>
 	</body>
 </html>
