@@ -1,0 +1,41 @@
+header{
+		height: 40px;
+		background-color: #67db7a;
+		}
+		
+		body{
+		padding: 30px;
+		margin: 0;
+		font-family: tahoma;
+		background-color: #a9d0de;
+		}
+		
+		#NumePrenume{
+		margin-left:10px;
+		}
+		
+		table, td{
+		border: 2px solid;
+		border-collapse: collapse;
+		padding:20 px;
+		}
+		
+		#Hobby-uri{
+		border-style: dashed;
+		width: 250px;
+		}
+		
+		#pozeprofil {
+		border-radius: 50px;
+		padding: 20px;
+		position: absolute;
+		top: 90px;
+		right: 180px;
+		opacity: 0.9;
+		}
+		
+		
+		footer{
+		background-color: #67db7a;
+		padding: 10px;
+		}
